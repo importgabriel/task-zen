@@ -1,12 +1,13 @@
 {
-  "name": "app",
+  "name": "todo-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "next": "^14",
@@ -22,6 +23,8 @@
     "@types/react-dom": "^18",
     "tailwindcss": "^3",
     "postcss": "^8",
-    "autoprefixer": "^10"
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "^14"
   }
 }
