@@ -1,2 +1,3 @@
-# task-zen
-A very simple todo list application
+# App
+
+Built by [Agent Switch](https://theswitchai.com/code).
